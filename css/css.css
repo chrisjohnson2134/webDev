@@ -1,0 +1,36 @@
+h1{
+	color : green;
+	background: rgb(0,0,0);
+	border: 2px solid yellow;
+}
+
+li{
+	color : black;
+}
+
+img{
+	width: 750px;
+	height: 500px;
+}
+
+#inP{
+	color : blue;
+}
+
+.stndList{
+	color : rgb(0,255,0);
+}
+
+.hLight{
+	color : yellow;
+}
+
+
+
+body{
+	background: orange;
+/*	background: url(https://previews.123rf.com/images/prapann/prapann1604/prapann160400228/55638774-wooden-texture-wood-grain.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	*/
+}

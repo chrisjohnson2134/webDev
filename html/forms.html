@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bear Registry</title>
+</head>
+<body>
+
+<form>
+	<h1>Welcome Bears!!</h1>
+	<div>
+		<label for = "firstName">First Name:</label>
+		<input type="input" name="firstName" placeholder="name" required>
+		<label for = "lastName">Last Name:</label>
+		<input type="input" name="lastName" placeholder="Last Name" required>
+	</div>
+	<div>
+		<input type="radio" name="gender" value="Male">
+		<label for = "gender">Male</label>
+		<input type="radio" name="gender" value="Female">
+		<label for = "gender">Male</label>
+		<input type="radio" name="gender" value="other">
+		<label for = "gender">Other</label>
+	</div>
+	<div>
+		<label for="Email">Email: </label>
+		<input type="email" name="Email" required placeholder="email">
+		<label for = "password">Password: </label>
+		<input type="password" name="password" required minlength="4" maxlength="20">
+	</div>
+	<div>
+		<label>Birthday:
+			<select name="month">
+				<option value="Jan">Jan</option>
+			</select>
+			<select name="day">
+				<option value="1">1</option>
+			</select>
+			<select name="year">
+				<option value="2020">2020</option>
+			</select>
+		</label>
+	</div>
+	<div>I agreee to be a bear.</div>
+	<div><button>Submit</button></div>
+	
+
+</form>
+
+
+</body>
+</html>
